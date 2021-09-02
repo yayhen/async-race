@@ -1,0 +1,77 @@
+.car-slot {
+  width: 100vw;
+  height: 100px;
+  position: relative;
+  border-bottom: 2px dashed black;
+}
+
+.car-slot__car {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  top: 70px;
+  /* left: 100px; */
+}
+
+.car-slot__finish-line {
+  width: 15px;
+  height: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 120px;
+  margin-top: 30px;
+}
+
+.car-slot__select-car {
+  width: 80px;
+  height: 34px;
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  border-left: 1px;
+}
+
+.car-slot__remove-car {
+  width: 80px;
+  height: 34px;
+  display: inline-block;
+  position: absolute;
+  left: 86px;
+  top: 6px;
+  border-left: 1px;
+}
+
+.car-slot__start-engine {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+  top: 51px;
+  border-left: 1px;
+}
+
+.car-slot__stop-engine {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  position: absolute;
+  left: 51px;
+  top: 51px;
+  border-left: 1px;
+}
+
+.car-slot__car-name {
+  position: absolute;
+  top: 6px;
+  left: 200px;
+}
+    
+    
+    
+    
+
+
+    

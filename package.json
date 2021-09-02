@@ -1,0 +1,31 @@
+{
+  "name": "async-race",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve"
+  },
+  "keywords": [
+    "typescript",
+    "async"
+  ],
+  "author": "yayhen",
+  "license": "ISC",
+  "devDependencies": {
+    "svg-inline-loader": "^0.8.2",
+    "svg-url-loader": "^7.1.1",
+    "typescript": "^4.3.5",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.51.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
